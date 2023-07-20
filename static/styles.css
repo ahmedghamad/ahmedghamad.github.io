@@ -1,1 +1,76 @@
 
+* {  /* wild card identifier */
+    margin: 0;
+}
+
+body { /* body styling */
+
+    background-color: #d3d0d0;
+    color: rgb(2, 0, 36);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+ #header-page {  /* header styling */
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background: rgb(2,0,36);
+    background: linear-gradient(133deg, rgba(2,0,36,1) 0%, rgba(215,97,200,1) 19%, rgba(0,212,255,1) 100%);
+ }
+
+ h1 { /* h1 styling */
+    text-align: center ;
+    color:#111010;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ }
+
+h3 { /* h3 styling */
+
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 30px
+
+}
+
+h4 { /* h4 styling */
+    text-decoration: underline;
+    margin-top: 50px;
+    margin-bottom: 30px
+}
+
+button {  /* button styling */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    cursor: grab;
+    transition: .5s;
+    color: blue;
+}
+
+button:hover{ /* pseudo class */
+    box-shadow: 0px 0px 35px 0px rebeccapurple;
+}
+
+img { /* leaving spcae between image an text */
+    margin-top: 10px;
+
+}
+
+a { /* anchor tag styling */
+    color: rgb(19, 102, 226);
+}
+<style>
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+  }
+
+  th {
+    background-color: #f2f2f2;
+  }
+</style>
