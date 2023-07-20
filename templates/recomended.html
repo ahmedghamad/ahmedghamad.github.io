@@ -1,0 +1,22 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    recomended
+{% endblock %}
+
+{% block main %}
+<table>
+
+<tr>
+{% for reconmendation in reconmendations %}
+<tr>
+    <th> Book Title </th>
+
+
+        <td> {{reconmendation.recomendations}}</td>
+
+</tr>
+{% endfor %}
+
+</table>
+{% endblock %}

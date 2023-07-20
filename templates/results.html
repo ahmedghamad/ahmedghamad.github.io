@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    results
+{% endblock %}
+
+{% block main %}
+<table>
+
+<tr>
+{% for reconmendation in reconmendations %}
+<tr>
+    <th> Book Title </th>
+    <th> Book Author </th>
+    <th> Book publisher </th>
+    <th> Book description </th>
+</tr>
+        <td> {{ reconmendation.title }}</td>
+        <td> {{ reconmendation.author }}</td>
+        <td> {{ reconmendation.publisher }}</td>
+        <td> {{ reconmendation.description}}</td>
+{% endfor %}
+</tr>
+</table>
+{% endblock %}
